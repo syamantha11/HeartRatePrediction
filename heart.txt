@@ -1,0 +1,21 @@
+Smoking
+high fat diet
+diabetes------
+high cholestrol----------
+high bp---------
+being overweight
+chest pain--------- wr.t old peak
+chestpain - age- chol
+bp - sugar - output
+bp - chol - max_heart rate
+
+
+data.sex.value_counts().plot(kind='bar')
+sns.histplot(data=data, x='max_heartrate',hue='chestPain',multiple='stack')
+
+
+age range
+0-14
+15-24
+25-64
+65-
