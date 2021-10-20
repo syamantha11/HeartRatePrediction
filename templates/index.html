@@ -1,0 +1,94 @@
+<html>
+
+<head>
+    <h2>Heart Attack Prediction</h2>
+    
+</head>
+<body>
+    
+    <form action='/submit' method='Post'>
+        <table>
+            <tr>
+                <td>Age:</td>
+                <td><input type='number' name='age' id='age'></td>
+            </tr>
+            <tr>
+                <td>Sex:</td>
+                <td>
+                    <input type='radio' id='male' name='sex' value=1>
+                    Male
+                    
+                    <input type='radio' id='female' name='sex' value=0>
+                    Female
+                </td>
+            </tr>
+            <tr>
+                <td>Chest Pain: </td>
+                
+                <td>Low<input type='radio' id='low' name='chestpain' value=0>
+                Moderate<input type='radio' id='moderate' name='chestpain' value=1>
+                High<input type='radio' id='high' name='chestpain' value=2>
+                Highly Risk<input type='radio' id='highly risk' name='chestpain' value=3>
+                </td>
+            </tr>
+            <tr>
+                <td>Fasting Sugar</td>
+                <td>
+                    <input type='radio' id='yes' name='fbs' value=1>
+                    Yes
+                    
+                    <input type='radio' id='no' name='fbs' value=0>
+                    No
+                </td>
+            </tr>
+            <tr>
+                <td>Exercise:</td>
+                <td>
+                    <input type='radio' id='yes' name='exercise' value=1>
+                    Yes
+                    
+                    <input type='radio' id='no' name='exercise' value=0>
+                    No
+                </td>
+            </tr>
+            <tr>
+                <td>Exng:</td>
+                <td>
+                    <input type='radio' id='yes' name='exng' value=1>
+                    Yes
+                    
+                    <input type='radio' id='no' name='exng' value=0>
+                    No
+                </td>
+            </tr>
+            <tr>
+                <td>Blood Pressure:</td>
+                <td><input type='number' name='bp' id='bp'></td>
+            </tr>
+            <tr>
+                <td>Cholestrol:</td>
+                <td><input type='number' name='chol' id='chol'></td>
+            </tr>
+            <tr>
+                <td>Max. Heart Rate:</td>
+                <td><input type='number' name='max_heartrate' id='max_hr'></td>
+            </tr>
+            <tr>
+                <td>Old Peak:</td>
+                <td><input type='text' name='oldpeak' id='oldpeak'></td>
+            </tr>
+        
+            <tr>
+            <td><input type='submit' name='submit' value='Predict'></td>
+            </tr>
+        
+        </table>
+    
+    
+    
+    </form>
+    
+    
+</body>
+
+</html>
