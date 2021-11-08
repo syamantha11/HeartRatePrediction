@@ -5,6 +5,19 @@
     
 </head>
 <body>
+    <style>
+        .center {
+              margin: auto;
+              width: 50%;
+              border: 3px solid black;
+              padding: 10px;
+            }
+        h2{
+            text-align: center;
+        }
+    
+    </style>
+    <div class='center'>
     
     <form action='/submit' method='Post'>
         <table>
@@ -25,10 +38,10 @@
             <tr>
                 <td>Chest Pain: </td>
                 
-                <td>Low<input type='radio' id='low' name='chestpain' value=0>
-                Moderate<input type='radio' id='moderate' name='chestpain' value=1>
-                High<input type='radio' id='high' name='chestpain' value=2>
-                Highly Risk<input type='radio' id='highly risk' name='chestpain' value=3>
+                <td><input type='radio' id='low' name='chestpain' value=0>Low
+                <input type='radio' id='moderate' name='chestpain' value=1>Moderate
+                <input type='radio' id='high' name='chestpain' value=2>High
+                <input type='radio' id='highly risk' name='chestpain' value=3>Highly Risk
                 </td>
             </tr>
             <tr>
@@ -74,7 +87,7 @@
                 <td><input type='number' name='max_heartrate' id='max_hr'></td>
             </tr>
             <tr>
-                <td>Old Peak:</td>
+                <td>Last Time Peak:</td>
                 <td><input type='text' name='oldpeak' id='oldpeak'></td>
             </tr>
         
@@ -87,7 +100,7 @@
     
     
     </form>
-    
+    </div>
     
 </body>
 
